@@ -1,0 +1,46 @@
+/* initial settings */
+*{
+    box-sizing: border-box;
+   font-family: 'Playfair Display', serif;
+    padding:0;
+    margin: 0; 
+     scroll-behavior: smooth; /* for shooth scorlling */
+}
+
+
+.navbar{
+    background-color: #131313;
+    height:80px;
+    display:flexp;
+    justify-content:center;
+    align-items: center;
+    /* 1.2 times the the actual size of the root font  */
+    font-size: 1.2rem;
+        /* for scrolling position to be sticky */
+    position: sticky;
+    top:0;
+    z-index: 666;
+}
+
+.nav_container{
+    display:flex;
+    /* making it ease for responsive */
+    justify-content: space-between; 
+    height: 80px;
+    z-index: 1;
+    width : 100%;
+    max-width: 300px;
+    /* 0 0 0 0 top down bottom left */
+    margin:0 auto;
+    padding: 0 50px;
+}
+
+
+.nav_logo{
+    background-color: #ff8177;
+    border-image: linear-gradient(to top,#ff0844 0% ,#ffb199 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    
+     
+}
